@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pazarcık Çilingir | İbrahim Oyman</title>
+<meta name="description" content="Pazarcık Çilingir - İbrahim Oyman. Kahramanmaraş Pazarcık'ta kapı kilidi açma, kilit değişimi ve tamiri. 0532 382 32 29">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg: #ffffff;
+    --bg-2: #F5F5F5;
+    --ink: #1E1E1E;
+    --ink-dim: #5B5B5B;
+    --line: #DDDDDD;
+    --accent: #2C3E50;
+  }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  body{
+    background: var(--bg);
+    color: var(--ink);
+    font-family:'Inter', Arial, sans-serif;
+    line-height:1.6;
+    font-size:16px;
+  }
+  a{ color: inherit; text-decoration:none; }
+  a:focus-visible, button:focus-visible{ outline:2px solid var(--accent); outline-offset:2px; }
+  .wrap{ max-width: 960px; margin:0 auto; padding:0 24px; }
+  h1,h2,h3{ font-weight:600; }
+
+  header{
+    border-bottom: 1px solid var(--line);
+  }
+  .header-inner{
+    display:flex; align-items:center; justify-content:space-between;
+    padding: 18px 0;
+  }
+  .brand{ font-size:1.1rem; font-weight:700; }
+  .header-phone{
+    font-weight:700; font-size:1.15rem;
+    background: var(--accent); color:#fff;
+    padding: 9px 18px; border-radius:4px;
+  }
+  .header-phone:hover{ background:#1c2b38; }
+
+  .hero{ padding: 56px 0 48px; border-bottom: 1px solid var(--line); }
+  .hero h1{ font-size: clamp(1.7rem, 3.6vw, 2.3rem); max-width: 620px; }
+  .hero p{ color: var(--ink-dim); margin-top:14px; max-width: 560px; font-size:1.02rem; }
+  .hero-actions{ margin-top: 26px; display:flex; gap:14px; flex-wrap:wrap; }
+  .btn{
+    display:inline-block; padding: 12px 22px; border-radius:4px; font-weight:600; font-size:0.95rem;
+  }
+  .btn-primary{ background: var(--accent); color:#fff; }
+  .btn-primary:hover{ background:#1c2b38; }
+  .btn-outline{ border:1px solid var(--line); color:var(--ink); }
+  .btn-outline:hover{ border-color: var(--accent); }
+
+  section{ padding: 48px 0; }
+  section + section{ border-top: 1px solid var(--line); }
+  section h2{ font-size:1.3rem; margin-bottom: 22px; }
+
+  .services-list{ display:grid; grid-template-columns: 1fr 1fr; gap: 0; border-top:1px solid var(--line); }
+  .service-item{
+    padding: 20px 0; border-bottom:1px solid var(--line);
+    padding-right: 24px;
+  }
+  .service-item:nth-child(odd){ padding-right: 24px; border-right: 1px solid var(--line); }
+  .service-item:nth-child(even){ padding-left: 24px; }
+  .service-item h3{ font-size:1rem; font-weight:600; margin-bottom:6px; }
+  .service-item p{ color:var(--ink-dim); font-size:0.92rem; }
+
+  .info-grid{ display:grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+  .info-item h3{ font-size:0.8rem; text-transform:uppercase; letter-spacing:0.04em; color:var(--ink-dim); margin-bottom:8px; font-weight:600; }
+  .info-item p{ font-size:1rem; }
+
+  footer{ padding: 40px 0; border-top:1px solid var(--line); background: var(--bg-2); }
+  .foot-inner{ display:flex; justify-content:space-between; flex-wrap:wrap; gap:16px; align-items:center; }
+  .foot-name{ font-weight:600; }
+  .foot-role{ color:var(--ink-dim); font-size:0.9rem; }
+  .foot-phone{ font-weight:700; font-size:1.1rem; }
+  .foot-bottom{ margin-top:20px; font-size:0.82rem; color:var(--ink-dim); }
+
+  @media (max-width: 640px){
+    .services-list{ grid-template-columns: 1fr; }
+    .service-item:nth-child(odd){ border-right:none; padding-right:0; }
+    .service-item:nth-child(even){ padding-left:0; }
+    .info-grid{ grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap header-inner">
+    <div class="brand">Pazarcık Çilingir</div>
+    <a class="header-phone" href="tel:+905323823229">0532 382 32 29 <span style="font-weight:500; font-size:0.75rem; opacity:0.85;">(Tıkla, Ara)</span></a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <h1>Kapı kilidi açma, değişimi ve tamiri</h1>
+    <p>Kahramanmaraş Pazarcık'ta kapı kilitleriyle ilgili hizmet veriyoruz: kilitli kapı açma, kilit değişimi ve çelik kapı kilit tamiri. İbrahim Oyman.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="tel:+905323823229" style="font-size:1.15rem;">0532 382 32 29 <span style="font-weight:500; font-size:0.85rem; opacity:0.85;">(Tıkla, Ara)</span></a>
+      <a class="btn btn-outline" href="#hizmetler">Hizmetler</a>
+    </div>
+  </div>
+</section>
+
+<section id="hizmetler">
+  <div class="wrap">
+    <h2>Hizmetler</h2>
+    <div class="services-list">
+      <div class="service-item">
+        <h3>Kapı Açma</h3>
+        <p>Kilitli kaldığınız ev veya işyeri kapısını açıyoruz.</p>
+      </div>
+      <div class="service-item">
+        <h3>Kilit Değişimi</h3>
+        <p>Kapı kilidinin değiştirilmesi ve yenisinin takılması.</p>
+      </div>
+      <div class="service-item">
+        <h3>Çelik Kapı Kilit Tamiri</h3>
+        <p>Çelik kapı göbek ve kilit mekanizması arızalarının tamiri.</p>
+      </div>
+      <div class="service-item">
+        <h3>Apartman / Site Giriş Kapısı</h3>
+        <p>Bina giriş kapısı kilit sisteminin kurulumu ve bakımı.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Bilgiler</h2>
+    <div class="info-grid">
+      <div class="info-item">
+        <h3>Bölge</h3>
+        <p>Pazarcık, Kahramanmaraş</p>
+      </div>
+      <div class="info-item">
+        <h3>Çalışma Saatleri</h3>
+        <p>7/24</p>
+      </div>
+      <div class="info-item">
+        <h3>İletişim</h3>
+        <p><a href="tel:+905323823229">0532 382 32 29</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="iletisim">
+  <div class="wrap">
+    <div class="foot-inner">
+      <div>
+        <div class="foot-name">İbrahim Oyman</div>
+        <div class="foot-role">Pazarcık Çilingir</div>
+      </div>
+      <a class="foot-phone" href="tel:+905323823229">0532 382 32 29</a>
+    </div>
+    <div class="foot-bottom">Pazarcık, Kahramanmaraş</div>
+  </div>
+</footer>
+
+</body>
+</html>
